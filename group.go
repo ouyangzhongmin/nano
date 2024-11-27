@@ -25,10 +25,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/lonng/nano/internal/env"
-	"github.com/lonng/nano/internal/log"
-	"github.com/lonng/nano/internal/message"
-	"github.com/lonng/nano/session"
+	"github.com/ouyangzhongmin/nano/internal/env"
+	"github.com/ouyangzhongmin/nanogmin/nano/internal/log"
+	"github.com/ouyangzhongmin/nanogmin/nano/internal/message"
+	"github.com/ouyangzhongmin/nanogmin/nano/session"
 )
 
 const (

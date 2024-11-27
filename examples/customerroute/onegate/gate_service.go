@@ -2,9 +2,10 @@ package onegate
 
 import (
 	"fmt"
-	"github.com/lonng/nano/component"
-	"github.com/lonng/nano/examples/cluster/protocol"
-	"github.com/lonng/nano/session"
+
+	"github.com/ouyangzhongmin/nano/component"
+	"github.com/ouyangzhongmin/nanogmin/nano/examples/cluster/protocol"
+	"github.com/ouyangzhongmin/nanogmin/nano/session"
 	"github.com/pingcap/errors"
 )
 

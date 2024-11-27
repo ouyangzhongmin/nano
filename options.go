@@ -4,14 +4,14 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/lonng/nano/cluster"
-	"github.com/lonng/nano/component"
-	"github.com/lonng/nano/internal/env"
-	"github.com/lonng/nano/internal/log"
-	"github.com/lonng/nano/internal/message"
-	"github.com/lonng/nano/pipeline"
-	"github.com/lonng/nano/serialize"
-	"github.com/lonng/nano/service"
+	"github.com/ouyangzhongmin/nano/cluster"
+	"github.com/ouyangzhongmin/nanogmin/nano/component"
+	"github.com/ouyangzhongmin/nanogmin/nano/internal/env"
+	"github.com/ouyangzhongmin/nanogmin/nano/internal/log"
+	"github.com/ouyangzhongmin/nanogmin/nano/internal/message"
+	"github.com/ouyangzhongmin/nanogmin/nano/pipeline"
+	"github.com/ouyangzhongmin/nanogmin/nano/serialize"
+	"github.com/ouyangzhongmin/nanogmin/nano/service"
 	"google.golang.org/grpc"
 )
 

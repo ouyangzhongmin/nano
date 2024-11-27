@@ -3,8 +3,8 @@ package pipeline
 import (
 	"sync"
 
-	"github.com/lonng/nano/internal/message"
-	"github.com/lonng/nano/session"
+	"github.com/ouyangzhongmin/nano/internal/message"
+	"github.com/ouyangzhongmin/nanogmin/nano/session"
 )
 
 type (

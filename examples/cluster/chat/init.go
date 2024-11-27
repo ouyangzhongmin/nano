@@ -1,8 +1,8 @@
 package chat
 
 import (
-	"github.com/lonng/nano/component"
-	"github.com/lonng/nano/session"
+	"github.com/ouyangzhongmin/nano/component"
+	"github.com/ouyangzhongmin/nanogmin/nano/session"
 )
 
 var (

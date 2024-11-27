@@ -2,18 +2,19 @@ package main
 
 import (
 	"fmt"
-	"github.com/lonng/nano/cluster/clusterpb"
 	"log"
 	"net/http"
 	"os"
 	"path/filepath"
 	"runtime"
 
-	"github.com/lonng/nano"
-	"github.com/lonng/nano/examples/customerroute/onegate"
-	"github.com/lonng/nano/examples/customerroute/tworoom"
-	"github.com/lonng/nano/serialize/json"
-	"github.com/lonng/nano/session"
+	"github.com/ouyangzhongmin/nano/cluster/clusterpb"
+
+	"github.com/ouyangzhongmin/nanogmin/nano"
+	"github.com/ouyangzhongmin/nanogmin/nano/examples/customerroute/onegate"
+	"github.com/ouyangzhongmin/nanogmin/nano/examples/customerroute/tworoom"
+	"github.com/ouyangzhongmin/nanogmin/nano/serialize/json"
+	"github.com/ouyangzhongmin/nanogmin/nano/session"
 	"github.com/pingcap/errors"
 	"github.com/urfave/cli"
 )
