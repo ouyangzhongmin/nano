@@ -1,8 +1,8 @@
 package cluster
 
 import (
-	"github.com/lonng/nano/service"
-	"github.com/lonng/nano/session"
+	"github.com/ouyangzhongmin/nano/service"
+	"github.com/ouyangzhongmin/nano/session"
 )
 
 func (n *Node) NewRpcSession(addr string) (*session.Session, error) {

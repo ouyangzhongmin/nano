@@ -1,8 +1,8 @@
 package nano
 
 import (
-	"github.com/lonng/nano/internal/runtime"
-	"github.com/lonng/nano/session"
+	"github.com/ouyangzhongmin/nano/internal/runtime"
+	"github.com/ouyangzhongmin/nano/session"
 )
 
 /**

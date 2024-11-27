@@ -31,14 +31,14 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/lonng/nano/cluster/clusterpb"
-	"github.com/lonng/nano/component"
-	"github.com/lonng/nano/internal/env"
-	"github.com/lonng/nano/internal/log"
-	"github.com/lonng/nano/internal/message"
-	"github.com/lonng/nano/pipeline"
-	"github.com/lonng/nano/scheduler"
-	"github.com/lonng/nano/session"
+	"github.com/ouyangzhongmin/nano/cluster/clusterpb"
+	"github.com/ouyangzhongmin/nano/component"
+	"github.com/ouyangzhongmin/nano/internal/env"
+	"github.com/ouyangzhongmin/nano/internal/log"
+	"github.com/ouyangzhongmin/nano/internal/message"
+	"github.com/ouyangzhongmin/nano/pipeline"
+	"github.com/ouyangzhongmin/nano/scheduler"
+	"github.com/ouyangzhongmin/nano/session"
 	"google.golang.org/grpc"
 )
 
