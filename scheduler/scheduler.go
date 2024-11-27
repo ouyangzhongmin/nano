@@ -27,7 +27,7 @@ import (
 	"time"
 
 	"github.com/ouyangzhongmin/nano/internal/env"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/log"
+	"github.com/ouyangzhongmin/nano/internal/log"
 )
 
 const (

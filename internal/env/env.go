@@ -27,7 +27,7 @@ import (
 	"time"
 
 	"github.com/ouyangzhongmin/nano/serialize"
-	"github.com/ouyangzhongmin/nanogmin/nano/serialize/protobuf"
+	"github.com/ouyangzhongmin/nano/serialize/protobuf"
 	"google.golang.org/grpc"
 )
 

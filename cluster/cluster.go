@@ -27,8 +27,8 @@ import (
 	"time"
 
 	"github.com/ouyangzhongmin/nano/cluster/clusterpb"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/env"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/log"
+	"github.com/ouyangzhongmin/nano/internal/env"
+	"github.com/ouyangzhongmin/nano/internal/log"
 )
 
 // cluster represents a nano cluster, which contains a bunch of nano nodes

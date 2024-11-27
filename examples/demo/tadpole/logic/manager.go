@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"github.com/ouyangzhongmin/nano/component"
-	"github.com/ouyangzhongmin/nanogmin/nano/examples/demo/tadpole/logic/protocol"
-	"github.com/ouyangzhongmin/nanogmin/nano/session"
+	"github.com/ouyangzhongmin/nano/examples/demo/tadpole/logic/protocol"
+	"github.com/ouyangzhongmin/nano/session"
 )
 
 // Manager component

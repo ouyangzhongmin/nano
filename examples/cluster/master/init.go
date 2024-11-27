@@ -2,7 +2,7 @@ package master
 
 import (
 	"github.com/ouyangzhongmin/nano/component"
-	"github.com/ouyangzhongmin/nanogmin/nano/session"
+	"github.com/ouyangzhongmin/nano/session"
 )
 
 var (

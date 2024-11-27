@@ -26,8 +26,8 @@ import (
 	"sync"
 
 	"github.com/ouyangzhongmin/nano/internal/codec"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/message"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/packet"
+	"github.com/ouyangzhongmin/nano/internal/message"
+	"github.com/ouyangzhongmin/nano/internal/packet"
 	"google.golang.org/protobuf/proto"
 )
 

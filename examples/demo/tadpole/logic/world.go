@@ -6,9 +6,9 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/ouyangzhongmin/nano"
-	"github.com/ouyangzhongmin/nanogmin/nano/component"
-	"github.com/ouyangzhongmin/nanogmin/nano/examples/demo/tadpole/logic/protocol"
-	"github.com/ouyangzhongmin/nanogmin/nano/session"
+	"github.com/ouyangzhongmin/nano/component"
+	"github.com/ouyangzhongmin/nano/examples/demo/tadpole/logic/protocol"
+	"github.com/ouyangzhongmin/nano/session"
 )
 
 // World contains all tadpoles

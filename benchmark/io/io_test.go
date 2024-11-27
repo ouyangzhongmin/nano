@@ -13,10 +13,10 @@ import (
 	"time"
 
 	"github.com/ouyangzhongmin/nano"
-	"github.com/ouyangzhongmin/nanogmin/nano/benchmark/testdata"
-	"github.com/ouyangzhongmin/nanogmin/nano/component"
-	"github.com/ouyangzhongmin/nanogmin/nano/serialize/protobuf"
-	"github.com/ouyangzhongmin/nanogmin/nano/session"
+	"github.com/ouyangzhongmin/nano/benchmark/testdata"
+	"github.com/ouyangzhongmin/nano/component"
+	"github.com/ouyangzhongmin/nano/serialize/protobuf"
+	"github.com/ouyangzhongmin/nano/session"
 )
 
 const (

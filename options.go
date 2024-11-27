@@ -5,13 +5,13 @@ import (
 	"time"
 
 	"github.com/ouyangzhongmin/nano/cluster"
-	"github.com/ouyangzhongmin/nanogmin/nano/component"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/env"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/log"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/message"
-	"github.com/ouyangzhongmin/nanogmin/nano/pipeline"
-	"github.com/ouyangzhongmin/nanogmin/nano/serialize"
-	"github.com/ouyangzhongmin/nanogmin/nano/service"
+	"github.com/ouyangzhongmin/nano/component"
+	"github.com/ouyangzhongmin/nano/internal/env"
+	"github.com/ouyangzhongmin/nano/internal/log"
+	"github.com/ouyangzhongmin/nano/internal/message"
+	"github.com/ouyangzhongmin/nano/pipeline"
+	"github.com/ouyangzhongmin/nano/serialize"
+	"github.com/ouyangzhongmin/nano/service"
 	"google.golang.org/grpc"
 )
 

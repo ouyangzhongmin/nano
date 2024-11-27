@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 
 	"github.com/ouyangzhongmin/nano/internal/env"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/log"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/message"
-	"github.com/ouyangzhongmin/nanogmin/nano/session"
+	"github.com/ouyangzhongmin/nano/internal/log"
+	"github.com/ouyangzhongmin/nano/internal/message"
+	"github.com/ouyangzhongmin/nano/session"
 )
 
 const (

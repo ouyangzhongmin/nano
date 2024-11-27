@@ -6,9 +6,9 @@ import (
 	"os"
 
 	"github.com/ouyangzhongmin/nano"
-	"github.com/ouyangzhongmin/nanogmin/nano/component"
-	"github.com/ouyangzhongmin/nanogmin/nano/examples/demo/tadpole/logic"
-	"github.com/ouyangzhongmin/nanogmin/nano/serialize/json"
+	"github.com/ouyangzhongmin/nano/component"
+	"github.com/ouyangzhongmin/nano/examples/demo/tadpole/logic"
+	"github.com/ouyangzhongmin/nano/serialize/json"
 	"github.com/urfave/cli"
 )
 

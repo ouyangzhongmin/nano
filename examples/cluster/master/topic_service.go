@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/ouyangzhongmin/nano/component"
-	"github.com/ouyangzhongmin/nanogmin/nano/examples/cluster/protocol"
-	"github.com/ouyangzhongmin/nanogmin/nano/session"
+	"github.com/ouyangzhongmin/nano/examples/cluster/protocol"
+	"github.com/ouyangzhongmin/nano/session"
 	"github.com/pingcap/errors"
 )
 

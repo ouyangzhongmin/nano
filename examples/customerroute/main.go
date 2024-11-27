@@ -10,11 +10,11 @@ import (
 
 	"github.com/ouyangzhongmin/nano/cluster/clusterpb"
 
-	"github.com/ouyangzhongmin/nanogmin/nano"
-	"github.com/ouyangzhongmin/nanogmin/nano/examples/customerroute/onegate"
-	"github.com/ouyangzhongmin/nanogmin/nano/examples/customerroute/tworoom"
-	"github.com/ouyangzhongmin/nanogmin/nano/serialize/json"
-	"github.com/ouyangzhongmin/nanogmin/nano/session"
+	"github.com/ouyangzhongmin/nano"
+	"github.com/ouyangzhongmin/nano/examples/customerroute/onegate"
+	"github.com/ouyangzhongmin/nano/examples/customerroute/tworoom"
+	"github.com/ouyangzhongmin/nano/serialize/json"
+	"github.com/ouyangzhongmin/nano/session"
 	"github.com/pingcap/errors"
 	"github.com/urfave/cli"
 )

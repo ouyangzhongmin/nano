@@ -24,7 +24,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/lonng/nano/internal/packet"
+	"github.com/ouyangzhongmin/nano/internal/packet"
 )
 
 // Codec constants.

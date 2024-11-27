@@ -8,12 +8,12 @@ import (
 	"runtime"
 
 	"github.com/ouyangzhongmin/nano"
-	"github.com/ouyangzhongmin/nanogmin/nano/cluster"
-	"github.com/ouyangzhongmin/nanogmin/nano/examples/cluster/chat"
-	"github.com/ouyangzhongmin/nanogmin/nano/examples/cluster/gate"
-	"github.com/ouyangzhongmin/nanogmin/nano/examples/cluster/master"
-	"github.com/ouyangzhongmin/nanogmin/nano/serialize/json"
-	"github.com/ouyangzhongmin/nanogmin/nano/session"
+	"github.com/ouyangzhongmin/nano/cluster"
+	"github.com/ouyangzhongmin/nano/examples/cluster/chat"
+	"github.com/ouyangzhongmin/nano/examples/cluster/gate"
+	"github.com/ouyangzhongmin/nano/examples/cluster/master"
+	"github.com/ouyangzhongmin/nano/serialize/json"
+	"github.com/ouyangzhongmin/nano/session"
 	"github.com/pingcap/errors"
 	"github.com/urfave/cli"
 )

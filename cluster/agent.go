@@ -29,13 +29,13 @@ import (
 	"time"
 
 	"github.com/ouyangzhongmin/nano/internal/codec"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/env"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/log"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/message"
-	"github.com/ouyangzhongmin/nanogmin/nano/internal/packet"
-	"github.com/ouyangzhongmin/nanogmin/nano/pipeline"
-	"github.com/ouyangzhongmin/nanogmin/nano/scheduler"
-	"github.com/ouyangzhongmin/nanogmin/nano/session"
+	"github.com/ouyangzhongmin/nano/internal/env"
+	"github.com/ouyangzhongmin/nano/internal/log"
+	"github.com/ouyangzhongmin/nano/internal/message"
+	"github.com/ouyangzhongmin/nano/internal/packet"
+	"github.com/ouyangzhongmin/nano/pipeline"
+	"github.com/ouyangzhongmin/nano/scheduler"
+	"github.com/ouyangzhongmin/nano/session"
 )
 
 const (
