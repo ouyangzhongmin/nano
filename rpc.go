@@ -8,7 +8,7 @@ import (
 /**
  * 创建一个用于Rpc的Session oyzm
 **/
-func NewRpcSession(addr string) (*session.Session, error) {
+func NewRpcSession(gateAddr string) (*session.Session, error) {
 	n := runtime.CurrentNode
-	return n.NewRpcSession(addr)
+	return n.NewRpcSession(gateAddr)
 }
