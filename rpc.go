@@ -25,11 +25,13 @@ func RPCWithAddr(route string, v interface{}, addr string) error {
 		var err error
 		// 这里由于是主要用于rpc，不需要用到push到client的操作, 所以没用真实的gateAddr
 		gateAddr := addr
-		ss, err = runtime.CurrentNode.NewRpcSession(gateAddr)
+		ss2, err := runtime.CurrentNode.NewRpcSession(gateAddr)
 		if err != nil {
 			return err
 		}
-		rpcSessions.Store(addr, ss)
+		ss2.Set("usedForRpc", 1)
+		rpcSessions.Store(addr, ss2)
+		ss = ss2
 	}
 
 	return ss.(*session.Session).RPCWithAddr(route, v, addr)
@@ -46,11 +48,13 @@ func RPC(route string, v interface{}) error {
 		var err error
 		// 这里由于是主要用于rpc，不需要用到push到client的操作, 所以没用真实的gateAddr
 		gateAddr := addr
-		ss, err = runtime.CurrentNode.NewRpcSession(gateAddr)
+		ss2, err := runtime.CurrentNode.NewRpcSession(gateAddr)
 		if err != nil {
 			return err
 		}
-		rpcSessions.Store(addr, ss)
+		ss2.Set("usedForRpc", 1)
+		rpcSessions.Store(addr, ss2)
+		ss = ss2
 	}
 
 	return ss.(*session.Session).RPCWithAddr(route, v, "")
